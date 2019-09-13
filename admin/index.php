@@ -28,9 +28,7 @@ include('../php/session.php');
       <li class="nav-item">
         <a class="nav-link" href="books.php">Books</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="roles.php">Role Management</a>
-      </li>
+      
       
     </ul>
     <a href="../php/logout.php" class="btn btn-outline-danger">Logout</a>
