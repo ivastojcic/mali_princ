@@ -109,7 +109,6 @@ include('../php/session.php');
                    <option selected>Select your role</option>
                    <option value="member">Member</option>
                    <option value="admin">Admin</option>
-                   <option value="admin">Superadmin</option>
                   </select>
                   
                   <button type="submit" style="margin-right: 5px" class="btn btn-primary">Save</button>
@@ -159,7 +158,6 @@ include('../php/session.php');
                   <select style="margin-bottom: 5px;" name="user_type_edit" id="user_type_edit" class="custom-select">
                    <option value="member">Member</option>
                    <option value="admin">Admin</option>
-                   <option value="admin">Superadmin</option>
                   </select>
                   
                   <button type="submit" style="margin-right: 5px" class="btn btn-primary">Save</button>
