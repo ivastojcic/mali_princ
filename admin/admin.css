@@ -1,0 +1,18 @@
+.card {
+  border-right: 7px solid #555;
+}
+
+.count {
+  text-align: center;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+.card-title {
+  font-family: cursive;
+}
+
+.loaders {
+  margin: 150px auto;
+  text-align: center
+}

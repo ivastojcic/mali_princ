@@ -1,0 +1,65 @@
+.slider-container {
+  padding: 50px 0;
+  margin-bottom: 50px;
+  background: #eee;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel img {
+  width: 100%;
+  height: 500px;
+}
+
+.navbar-brand {
+  background: #910a0a;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 3px 2px #ddd;
+  cursor: pointer;
+}
+
+.card-img-top {
+  height: 400px;
+}
+
+.card-title {
+  height: 40px;
+}
+
+.loaders {
+  margin: 50px auto;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 100px auto;
+}
+
+.custom-select {
+  margin-bottom: 10px;
+}
+
+.social-network a{
+  font-size: 40px;
+  margin: 0 10px;
+}
+
+.footer {
+  width: 100%;
+  background: #000;
+  color: #ffffff;
+  line-height: 1.5;
+  padding: 50px 0;
+}
