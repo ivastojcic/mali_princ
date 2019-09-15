@@ -1,7 +1,7 @@
 <?php
     session_start(); // Starting Session
     $error = ''; //prazna varijabla za ispisivanje greske
-    if(isset($_POST['login'])){
+    if(isset($_POST['login'])){ // kada se klikne login
         if(empty($_POST['user']) || empty($_POST['pass'])){
             $error="Nije upisano korisničko ime ili šifra";
         }

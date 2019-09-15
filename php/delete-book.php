@@ -7,9 +7,9 @@ if(count($data) > 0) {
     $id = $data->id;
     $query = "DELETE FROM `books` WHERE `books`.`id` = $id";
     if(mysqli_query($connect, $query)){
-        header("location:../cart.php");
+        header("location:../myBooks.php");
     } else {
-        header("location:../shop.php");
+        header("location:../index.php");
     }
 }
 
